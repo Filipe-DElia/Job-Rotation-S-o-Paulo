@@ -1,0 +1,6 @@
+public class ExercicioEstagioQua {
+    public static void main(String[] args) {
+        String inv = "Bom dia";
+        System.out.println(new StringBuilder(inv).reverse().toString());
+    }
+}
