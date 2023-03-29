@@ -1,0 +1,30 @@
+public class ExercicoEstagioTres {
+    public static void main(String[] args)
+     {
+        double soma, media, percent1, percent2, percent3, percent4, percent5;
+        double sp = 67836.43;
+        double rj = 36678.66;
+        double mg = 29229.88;
+        double es = 27165.48;
+        double outros = 19.84953;
+        soma = sp + rj + mg + es + outros;
+        System.out.print("O faturamento total foi:  R$" +soma);
+        media = soma / 5;
+        System.out.print("O faturamento medio foi:  R$" +media);
+
+        percent1 = sp  / soma *100;
+        System.out.print("O faturamento de SP representa: %" +percent1);
+
+        percent2 = rj  / soma *100;
+        System.out.print("O faturamento do RJ representa: %" +percent2);
+
+        percent3 = mg  / soma *100;
+        System.out.print("O faturamento de MG representa: %" +percent3);
+
+        percent4 = es  / soma *100;
+        System.out.print("O faturamento de ES representa: %" +percent4);
+
+        percent5 = outros  / soma *100;
+        System.out.print("O faturamento dos outros estados representa: %" +percent5);
+    }
+}
