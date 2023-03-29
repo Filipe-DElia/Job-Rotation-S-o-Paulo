@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class TesteEstagioDois {
+    public static void main(String[] args) 
+    {
+    
+    Scanner scan = new Scanner(System.in);
+    
+    int a = 1;
+    int b = 0;
+    int aux;
+    int pertence;
+    for ( int i = 0; i < 30 ; i++ ){
+    aux = a;
+    a = a + b;
+    b = aux;
+    } 
+    System.out.println("Digite um valor para saber se pertence: ");
+        pertence = scan.nextInt();
+    if (pertence == b){
+        System.out.println("Pertence ao conjunto: ");
+        }
+        else{
+        System.out.println("Não pertence");
+        }
+}
+}
